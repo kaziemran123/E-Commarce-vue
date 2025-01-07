@@ -1,6 +1,9 @@
 <template>
  <div>
-  <q-btn color="primary" icon="check" label="OK" @click="onClick" />
+  <div class="row" >
+    <div class="col">ff</div>
+    <div class="col" >ss</div>
+  </div>
  </div>
 </template>
 
