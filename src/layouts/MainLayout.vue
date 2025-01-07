@@ -2,115 +2,53 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="toggleLeftDrawer"
+        <q-img
+          src="https://wpocean.com/html/tf/pengu/assets/images/logo.svg"
+          :ratio="3/1"
+          spinner-color="primary"
+          spinner-size="5px"
+          width="90px"
+          height="25px"
         />
+        <q-space />
+        <div class="q-pa-md text-red" >
+          <q-btn flat no-focus
+           label="Scale Menu">
+        <q-menu
+          transition-show="scale"
+          transition-hide="scale"
+        >
+          <q-list style="min-width: 100px">
+            <q-item clickable>
+              <q-item-section>Having fun</q-item-section>
+            </q-item>
+            <q-item clickable>
+              <q-item-section>Crazy for transitions</q-item-section>
+            </q-item>
+            <q-separator />
+            <q-item clickable>
+              <q-item-section>Mind blown</q-item-section>
+            </q-item>
+          </q-list>
+        </q-menu>
+      </q-btn>
+          <q-btn  flat label="SHOP" class="q-mx-sm" />
+          <q-btn  flat label="PAGES" class="q-mx-sm" />
+          <q-btn  flat label="BLOG" class="q-mx-sm" />
+          <q-btn  flat label="CONTUCT US" class="q-px-sm" />
+        </div>
+         <q-space />
 
-        <q-toolbar-title>
-          Quasar App
-        </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
+        <div>
+          <q-btn icon="shopping_basket" class="q-mx-sm"  color="red" round/>
+          <q-btn icon="search" class="q-mx-sm" color="red" round />
+          <q-btn icon="person" class="q-mx-sm" color="red" round />
+        </div>
       </q-toolbar>
     </q-header>
-
-    <q-drawer
-      v-model="leftDrawerOpen"
-      show-if-above
-      bordered
-    >
-      <q-list>
-        <q-item-label
-          header
-        >
-          Essential Links
-        </q-item-label>
-
-        <EssentialLink
-          v-for="link in linksList"
-          :key="link.title"
-          v-bind="link"
-        />
-      </q-list>
-    </q-drawer>
 
     <q-page-container>
       <router-view />
     </q-page-container>
   </q-layout>
 </template>
-
-<script>
-import { defineComponent, ref } from 'vue'
-import EssentialLink from 'components/EssentialLink.vue'
-
-const linksList = [
-  {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
-  },
-  {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
-  },
-  {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
-  },
-  {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
-]
-
-export default defineComponent({
-  name: 'MainLayout',
-
-  components: {
-    EssentialLink
-  },
-
-  setup () {
-    const leftDrawerOpen = ref(false)
-
-    return {
-      linksList,
-      leftDrawerOpen,
-      toggleLeftDrawer () {
-        leftDrawerOpen.value = !leftDrawerOpen.value
-      }
-    }
-  }
-})
-</script>
