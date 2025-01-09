@@ -205,6 +205,16 @@
       <div class="q-pa-md text-center flex flex-center">
         <q-separator style="width: 100px" color="red"></q-separator>
       </div>
+      <div class="q-px-xl row flex-center">
+        <div class="">
+          <q-btn color="red" icon="" label="All Products" class="q-mr-sm" />
+          <q-btn color="red" icon="" label="Man" class="q-mr-sm" />
+          <q-btn color="red" icon="" label="Woman" class="q-mr-sm" />
+          <q-btn color="red" icon="" label="Kids" class="q-mr-sm" />
+          <q-btn color="red" icon="" label="Sales" class="q-mr-sm" />
+          <q-btn color="red" icon="" label="Offers" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
