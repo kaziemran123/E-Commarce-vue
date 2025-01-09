@@ -152,13 +152,13 @@
         </q-card>
       </div>
       <div class="col q-pa-md">
-       <q-card class="my-card">
-        <q-img
-          src="https://wpocean.com/html/tf/pengu/assets/images/product-single/4.jpg"
-          spinner-color="primary"
-          spinner-size="70px"
-        />
-        <div class="q-pa-md flex flex-center">
+        <q-card class="my-card">
+          <q-img
+            src="https://wpocean.com/html/tf/pengu/assets/images/product-single/4.jpg"
+            spinner-color="primary"
+            spinner-size="70px"
+          />
+          <div class="q-pa-md flex flex-center">
             <div class="text-bold text-h6">Winter Jacket</div>
             <div class="row q-px-md flex justyfy-center items-center">
               <div class="col q-pa-md" style="text-decoration: line-through">
@@ -167,7 +167,43 @@
               <div class="col text-red">$80.30</div>
             </div>
           </div>
-       </q-card>
+        </q-card>
+      </div>
+    </div>
+    <!-- 3rd page -->
+    <div class="bg-grey-2 q-py-xl">
+      <div class="row flex-center q-px-xl">
+        <div class="col q-px-xl border">
+          <div class="text-h2 text-bold">Stylish casual sweater & sneakers</div>
+          <div
+            class="text-weight-thin text-caption text-h3"
+            style="letter-spacing: 0.9em"
+          >
+            Beautiful Fastionable and stylish
+          </div>
+          <div class="q-pa-md flex-center">
+            <q-btn color="red" label="Shope Now" outline rounded />
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <q-img
+              src="https://m.media-amazon.com/images/I/71OY+H91zVL._SY741_.jpg"
+              spinner-color="primary"
+              spinner-size="70px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 4th page -->
+    <div class="q-py-xl">
+      <div class="text-center text-h4">Popular Products</div>
+      <div class="text-center text-h5 text-weight-thin text-caption">
+        hear is our new arraival products that you may like
+      </div>
+      <div class="q-pa-md text-center flex flex-center">
+        <q-separator style="width: 100px" color="red"></q-separator>
       </div>
     </div>
   </div>
