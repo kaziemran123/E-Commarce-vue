@@ -533,6 +533,21 @@
                 </div>
               </div>
             </div>
+            <div class="flex flex-center">
+              <q-btn
+                color="white"
+                label="new Season morden Scarf"
+                text-color="black"
+                flat
+              />
+            </div>
+            <div class="q-pa-md text-weight-thin text-caption">
+              Etiam facisis urna dignissim dui quisque in mauris viverra Nulla
+              placerat suscipit integer enim.
+            </div>
+            <div class="q-pa-md">
+              <q-btn color="red" label="Read More...." flat />
+            </div>
           </q-card>
         </div>
         <div class="col q-pa-md">
@@ -545,6 +560,35 @@
                 <div class="text-h6 text-white bg-red">Trending</div>
               </div>
             </div>
+            <div class="row">
+              <div class="col">
+                <div class="text-weight-thin text-caption">
+                  <q-icon name="fiber_manual_record" style="color: red" />By
+                  Jastin Wastal
+                </div>
+              </div>
+              <div class="col">
+                <div class="text-weight-thin text-caption">
+                  <q-icon name="fiber_manual_record" style="color: red" />15 Sep
+                  2025
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-center">
+              <q-btn
+                color="white"
+                label="Summer Trending"
+                text-color="black"
+                flat
+              />
+            </div>
+            <div class="q-pa-md text-weight-thin text-caption">
+              Etiam facisis urna dignissim dui quisque in mauris viverra Nulla
+              placerat suscipit integer enim.
+            </div>
+            <div class="q-pa-md">
+              <q-btn color="red" label="Read More...." flat />
+            </div>
           </q-card>
         </div>
         <div class="col q-pa-md">
@@ -556,6 +600,35 @@
               <div class="text-left">
                 <div class="text-h6 text-white bg-red">Lifestyel</div>
               </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="text-weight-thin text-caption">
+                  <q-icon name="fiber_manual_record" style="color: red" />By
+                  Jastin Wastal
+                </div>
+              </div>
+              <div class="col">
+                <div class="text-weight-thin text-caption">
+                  <q-icon name="fiber_manual_record" style="color: red" />15 Sep
+                  2025
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-center">
+              <q-btn
+                color="white"
+                label="Top 10 Curley Hairstyle"
+                text-color="black"
+                flat
+              />
+            </div>
+            <div class="q-pa-md text-weight-thin text-caption">
+              Etiam facisis urna dignissim dui quisque in mauris viverra Nulla
+              placerat suscipit integer enim.
+            </div>
+            <div class="q-pa-md">
+              <q-btn color="red" label="Read More...." flat />
             </div>
           </q-card>
         </div>
