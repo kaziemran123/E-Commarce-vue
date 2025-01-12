@@ -77,7 +77,7 @@
         />
         <q-btn
           text-color="white"
-          label="Shoop Now"
+          label="Shop Now"
           style="width: 200px; height: 60px"
           outline
           dense
@@ -207,13 +207,304 @@
       </div>
       <div class="q-px-xl row flex-center">
         <div class="">
-          <q-btn color="red" icon="" label="All Products" class="q-mr-sm" />
-          <q-btn color="red" icon="" label="Man" class="q-mr-sm" />
-          <q-btn color="red" icon="" label="Woman" class="q-mr-sm" />
-          <q-btn color="red" icon="" label="Kids" class="q-mr-sm" />
-          <q-btn color="red" icon="" label="Sales" class="q-mr-sm" />
-          <q-btn color="red" icon="" label="Offers" />
+          <q-btn
+            color="red"
+            icon=""
+            label="All Products"
+            class="q-mr-sm"
+            dense
+            flat
+          />
+          <q-btn color="red" icon="" label="Man" class="q-mr-sm" flat dense />
+          <q-btn color="red" icon="" label="Woman" class="q-mr-sm" flat dense />
+          <q-btn color="red" icon="" label="Kids" class="q-mr-sm" flat dense />
+          <q-btn color="red" icon="" label="Sales" class="q-mr-sm" flat dense />
+          <q-btn color="red" icon="" label="Offers" flat dense />
         </div>
+      </div>
+    </div>
+    <div>
+      <div class="row q-pa-md">
+        <div class="col q-pa-md">
+          <q-card class="my-card">
+            <q-img
+              src="https://wpocean.com/html/tf/pengu/assets/images/product-category/1.jpg"
+              spinner-size="70px"
+            />
+            <div class="q-pa-md flex flex-center">
+              <div class="text-bold text-h6">Long sleeve tops</div>
+              <div class="row q-px-md flex justyfy-center items-center">
+                <div class="col q-pa-md" style="text-decoration: line-through">
+                  $80.50
+                </div>
+                <div class="col text-red">$70.50</div>
+              </div>
+            </div>
+          </q-card>
+        </div>
+
+        <div class="col q-pa-md">
+          <q-card class="my-card">
+            <q-img
+              src="https://wpocean.com/html/tf/pengu/assets/images/product-category/2.jpg"
+              spinner-size="70px"
+            />
+            <div class="q-pa-md flex flex-center">
+              <div class="text-bold text-h6">white wedding shoe</div>
+              <div class="row q-px-md flex justyfy-center items-center">
+                <div class="col q-pa-md" style="text-decoration: line-through">
+                  $150.50
+                </div>
+                <div class="col text-red">$120.50</div>
+              </div>
+            </div>
+          </q-card>
+        </div>
+        <div class="col q-pa-md">
+          <q-card class="my-card">
+            <q-img
+              src="https://wpocean.com/html/tf/pengu/assets/images/product-category/3.jpg"
+              spinner-size="70px"
+            />
+            <div class="q-pa-md flex flex-center">
+              <div class="text-bold text-h6">Long chain Whit Lockel</div>
+              <div class="row q-px-md flex justyfy-center items-center">
+                <div class="col q-pa-md" style="text-decoration: line-through">
+                  $180.50
+                </div>
+                <div class="col text-red">$150.30</div>
+              </div>
+            </div>
+          </q-card>
+        </div>
+        <div class="col q-pa-md">
+          <q-card class="my-card">
+            <q-img
+              src="https://wpocean.com/html/tf/pengu/assets/images/product-category/8.jpg"
+              spinner-size="70px"
+            />
+            <div class="q-pa-md flex flex-center">
+              <div class="text-bold text-h6">white wedding shoe</div>
+              <div class="row q-px-md flex justyfy-center items-center">
+                <div class="col q-pa-md" style="text-decoration: line-through">
+                  $150.50
+                </div>
+                <div class="col text-red">$120.50</div>
+              </div>
+            </div>
+          </q-card>
+        </div>
+      </div>
+      <div class="row q-pa-md">
+        <div class="col q-pa-md">
+          <q-card class="my-card">
+            <img
+              src="https://wpocean.com/html/tf/pengu/assets/images/product-category/5.jpg"
+              spinner-size="70px"
+            />
+            <div class="q-pa-md flex flex-center">
+              <div class="text-bold text-h6 flex flex-center">
+                Long Sleeve Tops
+              </div>
+              <div class="row q-px-md flex justyfy-center items-center">
+                <div class="col q-pa-md" style="text-decoration: line-through">
+                  $85.50
+                </div>
+                <div class="col text-red">$70.30</div>
+              </div>
+            </div>
+          </q-card>
+        </div>
+        <div class="col q-pa-md">
+          <q-card class="my-card">
+            <q-img
+              src="https://wpocean.com/html/tf/pengu/assets/images/product-category/6.jpg"
+              spinner-size="70px"
+            />
+            <div class="q-pa-md flex flex-center">
+              <div class="text-bold text-h6">Long chain Whit Lockel</div>
+              <div class="row q-px-md flex justyfy-center items-center">
+                <div class="col q-pa-md" style="text-decoration: line-through">
+                  $120.50
+                </div>
+                <div class="col text-red">$100.20</div>
+              </div>
+            </div>
+          </q-card>
+        </div>
+        <div class="col q-pa-md">
+          <q-card class="my-card">
+            <img
+              src="https://wpocean.com/html/tf/pengu/assets/images/product-category/7.jpg"
+              spinner-size="70px"
+            />
+            <div class="q-pa-md flex flex-center">
+              <div class="text-bold text-h6">white wedding shoe</div>
+              <div class="row q-px-md flex justyfy-center items-center">
+                <div class="col q-pa-md" style="text-decoration: line-through">
+                  $150.50
+                </div>
+                <div class="col text-red">$130.20</div>
+              </div>
+            </div>
+          </q-card>
+        </div>
+        <div class="col q-pa-md">
+          <q-card class="my-card">
+            <img
+              src="https://wpocean.com/html/tf/pengu/assets/images/product-category/8.jpg"
+              spinner-size="70px"
+            />
+            <div class="q-pa-md flex flex-center">
+              <div class="text-bold text-h6">Winter Jacket</div>
+              <div class="row q-px-md flex justyfy-center items-center">
+                <div class="col q-pa-md" style="text-decoration: line-through">
+                  $100.50
+                </div>
+                <div class="col text-red">$70.30</div>
+              </div>
+            </div>
+          </q-card>
+        </div>
+      </div>
+    </div>
+    <div class="q-py-xl">
+      <div class="row">
+        <div class="col q-pa-md">
+          <q-card class="my-card">
+            <img
+              src="https://wpocean.com/html/tf/pengu/assets/images/lookbook.jpg"
+            />
+            <div class="absolute-full row items-center justify-end q-pa-md">
+              <div class="text-right">
+                <div class="text-h3 text-white text-bold">LOOKBOOK 2025</div>
+                <div class="text-white text-caption text-h2">
+                  Best Fastionable Brand in The World
+                </div>
+                <q-btn
+                  class="q-mt-md bg-white"
+                  text-color="red"
+                  label="view Collection"
+                  style="width: 200px; height: 60px"
+                  dense
+                  unelevated
+                />
+              </div>
+            </div>
+          </q-card>
+        </div>
+
+        <div class="col q-pa-md">
+          <q-card class="my-card">
+            <img
+              src="https://wpocean.com/html/tf/pengu/assets/images/winter.jpg"
+            />
+            <div class="absolute-full row q-pa-md">
+              <div class="text-left">
+                <div class="text-white text-h4">winter sale</div>
+                <div class="text-white text-bold text-h2">UP TO 70% OFF</div>
+                <q-btn
+                  class="q-mt-md bg-red"
+                  text-color="white"
+                  label="Shoope Now"
+                  style="width: 200px; height: 60px"
+                  unelevated
+                />
+              </div>
+            </div>
+          </q-card>
+        </div>
+      </div>
+    </div>
+    <!-- 5 -->
+    <div class="q-py-xl">
+      <div class="text-center text-h4 text-bold">Best Seller</div>
+      <div class="text-center text-h5 text-weight-thin text-caption">
+        Top sale in this week and this season
+      </div>
+      <div class="q-pa-md text-center flex flex-center">
+        <q-separator style="width: 100px" color="red"></q-separator>
+      </div>
+    </div>
+    <div class="row q-pa-md">
+      <div class="col q-pa-md">
+        <q-card class="my-card">
+          <q-img
+            src="https://wpocean.com/html/tf/pengu/assets/images/bestseller/img-1.jpg"
+            spinner-size="70px"
+          />
+          <div class="q-pa-md flex flex-center">
+            <div class="text-bold text-h6">Long sleeve tops</div>
+            <div class="row q-px-md flex justyfy-center items-center">
+              <div class="col q-pa-md" style="text-decoration: line-through">
+                $80.50
+              </div>
+              <div class="col text-red">$70.50</div>
+            </div>
+          </div>
+        </q-card>
+      </div>
+
+      <div class="col q-pa-md">
+        <q-card class="my-card">
+          <q-img
+            src="https://wpocean.com/html/tf/pengu/assets/images/bestseller/img-2.jpg"
+            spinner-size="70px"
+          />
+          <div class="q-pa-md flex flex-center">
+            <div class="text-bold text-h6">white wedding shoe</div>
+            <div class="row q-px-md flex justyfy-center items-center">
+              <div class="col q-pa-md" style="text-decoration: line-through">
+                $150.50
+              </div>
+              <div class="col text-red">$120.50</div>
+            </div>
+          </div>
+        </q-card>
+      </div>
+      <div class="col q-pa-md">
+        <q-card class="my-card">
+          <q-img
+            src="https://wpocean.com/html/tf/pengu/assets/images/bestseller/img-3.jpg"
+            spinner-size="70px"
+          />
+          <div class="q-pa-md flex flex-center">
+            <div class="text-bold text-h6">Long chain Whit Lockel</div>
+            <div class="row q-px-md flex justyfy-center items-center">
+              <div class="col q-pa-md" style="text-decoration: line-through">
+                $85.50
+              </div>
+              <div class="col text-red">$60.30</div>
+            </div>
+          </div>
+        </q-card>
+      </div>
+      <div class="col q-pa-md">
+        <q-card class="my-card">
+          <q-img
+            src="https://wpocean.com/html/tf/pengu/assets/images/bestseller/img-4.jpg"
+            spinner-size="70px"
+          />
+          <div class="q-pa-md flex flex-center">
+            <div class="text-bold text-h6">white wedding shoe</div>
+            <div class="row q-px-md flex justyfy-center items-center">
+              <div class="col q-pa-md" style="text-decoration: line-through">
+                $100.50
+              </div>
+              <div class="col text-red">$80.50</div>
+            </div>
+          </div>
+        </q-card>
+      </div>
+    </div>
+    <!-- 6 -->
+    <div class="q-py-xl">
+      <div class="text-center text-h4 text-bold">Latest News</div>
+      <div class="text-center text-h5 text-weight-thin text-caption">
+        Hear is our top newses for your fastion guide
+      </div>
+      <div class="q-pa-md text-center flex flex-center">
+        <q-separator style="width: 100px" color="red"></q-separator>
       </div>
     </div>
   </div>
@@ -226,3 +517,17 @@ export default defineComponent({
   name: "IndexPage",
 });
 </script>
+
+<style scoped>
+.my-card {
+  position: relative;
+  overflow: hidden;
+}
+.absolute-full {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+</style>
