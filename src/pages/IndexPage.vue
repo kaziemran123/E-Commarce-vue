@@ -510,7 +510,7 @@
     <div class="q-pa-md">
       <div class="row">
         <div class="col q-pa-md">
-          <q-card class="my-card">
+          <q-card flat class="my-card">
             <q-img
               src="https://wpocean.com/html/tf/pengu/assets/images/blog/img-1.jpg"
             />
@@ -551,7 +551,7 @@
           </q-card>
         </div>
         <div class="col q-pa-md">
-          <q-card class="my-card">
+          <q-card flat class="my-card">
             <img
               src="https://wpocean.com/html/tf/pengu/assets/images/blog/img-2.jpg"
             />
@@ -592,7 +592,7 @@
           </q-card>
         </div>
         <div class="col q-pa-md">
-          <q-card class="my-card">
+          <q-card flat class="my-card">
             <img
               src="https://wpocean.com/html/tf/pengu/assets/images/blog/img-3.jpg"
             />
