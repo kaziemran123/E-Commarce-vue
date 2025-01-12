@@ -507,6 +507,60 @@
         <q-separator style="width: 100px" color="red"></q-separator>
       </div>
     </div>
+    <div class="q-pa-md">
+      <div class="row">
+        <div class="col q-pa-md">
+          <q-card class="my-card">
+            <q-img
+              src="https://wpocean.com/html/tf/pengu/assets/images/blog/img-1.jpg"
+            />
+            <div class="absolute-full row items-left q-pa-md">
+              <div class="text-left">
+                <div class="text-h6 text-white bg-red">Fastion</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="text-weight-thin text-caption">
+                  <q-icon name="fiber_manual_record" style="color: red" />By
+                  Jastin Wastal
+                </div>
+              </div>
+              <div class="col">
+                <div class="text-weight-thin text-caption">
+                  <q-icon name="fiber_manual_record" style="color: red" />15 Sep
+                  2025
+                </div>
+              </div>
+            </div>
+          </q-card>
+        </div>
+        <div class="col q-pa-md">
+          <q-card class="my-card">
+            <img
+              src="https://wpocean.com/html/tf/pengu/assets/images/blog/img-2.jpg"
+            />
+            <div class="absolute-full row items-left q-pa-md">
+              <div class="text-left">
+                <div class="text-h6 text-white bg-red">Trending</div>
+              </div>
+            </div>
+          </q-card>
+        </div>
+        <div class="col q-pa-md">
+          <q-card class="my-card">
+            <img
+              src="https://wpocean.com/html/tf/pengu/assets/images/blog/img-3.jpg"
+            />
+            <div class="absolute-full row items-left q-pa-md">
+              <div class="text-left">
+                <div class="text-h6 text-white bg-red">Lifestyel</div>
+              </div>
+            </div>
+          </q-card>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
