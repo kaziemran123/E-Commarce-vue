@@ -634,6 +634,96 @@
         </div>
       </div>
     </div>
+    <!-- finale -->
+    <!-- <div class="q-py-xl">
+      <div class="row">
+        <div class="col q-px-xl">
+          <q-img
+            src="https://wpocean.com/html/tf/pengu/assets/images/logo.svg"
+            :ratio="3 / 1"
+            spinner-color="primary"
+            spinner-size="5px"
+            width="90px"
+            height="25px"
+          />
+          <div class="q-py-md">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            corporis ducimus iure ad voluptatum modi nam laudantium
+            reprehenderit molestiae, suscipit cupiditate. Corrupti, ducimus.
+            Iure aut voluptates quia architecto recusandae
+          </div>
+          <div class="row">
+            <div class="col">
+              <div>
+                <q-btn flat outline round>
+                  <a href="">
+                    <q-img
+                      style="width: 30px; height: 30px"
+                      src="~assets/my-img/facebook.png"
+                    />
+                  </a>
+                </q-btn>
+              </div>
+            </div>
+            <div class="col">
+              <div>
+                <q-btn flat outline round>
+                  <a href="">
+                    <q-img
+                      style="width: 30px; height: 30px"
+                      src="~assets/my-img/icons8-skype-50.png"
+                    />
+                  </a>
+                </q-btn>
+              </div>
+            </div>
+            <div class="col">
+              <div>
+                <q-btn flat outline round>
+                  <a href="">
+                    <q-img
+                      style="width: 30px; height: 30px"
+                      src="~src/assets/my-img/twitter.png"
+                    />
+                  </a>
+                </q-btn>
+              </div>
+            </div>
+            <div class="col">
+              <div>
+                <q-btn flat outline round>
+                  <a href="">
+                    <q-img
+                      style="width: 30px; height: 30px"
+                      src="~src/assets/my-img/linkedin-logo.png"
+                    />
+                  </a>
+                </q-btn>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-bold text-h4">Categories</div>
+          <q-btn
+            icon="fiber_manual_record"
+            label="women"
+            flat
+            dense
+            no-caps
+            unelevated
+          />
+          <div><q-icon name="fiber_manual_record" />women</div>
+          <div><q-icon name="fiber_manual_record" />men</div>
+          <div><q-icon name="fiber_manual_record" />kids</div>
+          <div><q-icon name="fiber_manual_record" />shoes</div>
+          <div><q-icon name="fiber_manual_record" />shoes</div>
+          <div><q-icon name="fiber_manual_record" />shoes</div>
+        </div>
+        <div class="col">yyyy</div>
+        <div class="col">lll</div>
+      </div>
+    </div>   -->
   </div>
 </template>
 

@@ -115,6 +115,187 @@
       </q-toolbar>
     </q-header>
 
+    <q-footer reveal elevated bordered class="bg-grey">
+      <div>
+        <div class="q-py-xl">
+          <div class="row">
+            <div class="col q-px-xl">
+              <q-img
+                src="https://wpocean.com/html/tf/pengu/assets/images/logo.svg"
+                :ratio="3 / 1"
+                spinner-color="primary"
+                spinner-size="5px"
+                width="90px"
+                height="25px"
+              />
+              <div class="q-py-md">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                corporis ducimus iure ad voluptatum modi nam laudantium
+                reprehenderit molestiae, suscipit cupiditate. Corrupti, ducimus.
+                Iure aut voluptates quia architecto recusandae
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div>
+                    <q-btn flat outline round>
+                      <a href="">
+                        <q-img
+                          style="width: 30px; height: 30px"
+                          src="~assets/my-img/facebook.png"
+                        />
+                      </a>
+                    </q-btn>
+                  </div>
+                </div>
+                <div class="col">
+                  <div>
+                    <q-btn flat outline round>
+                      <a href="">
+                        <q-img
+                          style="width: 30px; height: 30px"
+                          src="~assets/my-img/icons8-skype-50.png"
+                        />
+                      </a>
+                    </q-btn>
+                  </div>
+                </div>
+                <div class="col">
+                  <div>
+                    <q-btn flat outline round>
+                      <a href="">
+                        <q-img
+                          style="width: 30px; height: 30px"
+                          src="~src/assets/my-img/twitter.png"
+                        />
+                      </a>
+                    </q-btn>
+                  </div>
+                </div>
+                <div class="col">
+                  <div>
+                    <q-btn flat outline round>
+                      <a href="">
+                        <q-img
+                          style="width: 30px; height: 30px"
+                          src="~src/assets/my-img/linkedin-logo.png"
+                        />
+                      </a>
+                    </q-btn>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="text-bold text-h4">Categories</div>
+              <q-btn flat no-caps>
+                <div class="row">
+                  <div class="col-3">
+                    <q-icon name="fiber_manual_record" size="14px" />
+                  </div>
+                  <div class="col-9">Woman</div>
+                </div>
+              </q-btn>
+
+              <div>
+                <q-btn flat no-caps>
+                  <div class="row">
+                    <div class="col-3">
+                      <q-icon name="fiber_manual_record" size="14px" />
+                    </div>
+                    <div class="col-9">Man</div>
+                  </div>
+                </q-btn>
+              </div>
+              <div>
+                <q-btn flat no-caps>
+                  <div class="row">
+                    <div class="col-3">
+                      <q-icon name="fiber_manual_record" size="14px" />
+                    </div>
+                    <div class="col-9">kids</div>
+                  </div>
+                </q-btn>
+              </div>
+              <div>
+                <q-btn flat no-caps>
+                  <div class="row">
+                    <div class="col-3">
+                      <q-icon name="fiber_manual_record" size="14px" />
+                    </div>
+                    <div class="col-9">Shoes</div>
+                  </div>
+                </q-btn>
+              </div>
+              <div>
+                <q-btn flat no-caps>
+                  <div class="row">
+                    <div class="col-3">
+                      <q-icon name="fiber_manual_record" size="14px" />
+                    </div>
+                    <div class="col-9">Jwellery</div>
+                  </div>
+                </q-btn>
+              </div>
+              <div>
+                <q-btn flat no-caps>
+                  <div class="row">
+                    <div class="col-3">
+                      <q-icon name="fiber_manual_record" size="14px" />
+                    </div>
+                    <div class="col-9">T-Shirt</div>
+                  </div>
+                </q-btn>
+              </div>
+            </div>
+            <div class="col">
+              <div>
+                <div class="text-bold text-h4">Blog Post</div>
+                <div class="row">
+                  <div class="col-3 q-pa-md">
+                    <q-img
+                      src="src/assets/my-img/white-female-girl-people-background.jpg"
+                      :ratio="16 / 9"
+                      width="70px"
+                      height="70px"
+                    />
+                  </div>
+                  <div class="col-9 q-pa-md">
+                    <div>
+                      it is a long estabalish fact that a reader will be
+                      distracted
+                    </div>
+                    <div class="text-weight-thin">12/july/2025</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3 q-pa-md">
+                    <q-img
+                      src="src/assets/my-img/white-female-girl-people-background.jpg"
+                      :ratio="16 / 9"
+                      width="70px"
+                      height="70px"
+                    />
+                  </div>
+                  <div class="col-9 q-pa-md">
+                    <div>
+                      it is a long estabalish fact that a reader will be
+                      distracted
+                    </div>
+                    <div class="text-weight-thin">12/july/2025</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col q-pa-md">
+              <div class="text-bold text-h4">Newslatter</div>
+              <div>
+                subscribe to our newslatter abd get 10% off your first purchase
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </q-footer>
     <q-page-container>
       <router-view />
     </q-page-container>
