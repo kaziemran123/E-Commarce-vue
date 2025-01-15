@@ -21,18 +21,38 @@
               <q-card class="my-card q-qx-sm">
                 <div class="text-bold text-h4 q-pa-md">search</div>
                 <div class="q-pa-md">
-                  <q-separator style="width: 100px" color="red"></q-separator>
+                  <q-separator style="width: 70px" color="red"></q-separator>
                 </div>
                 <div class="q-pa-md">
                   <q-input type="text" placeholder="search" outlined dense>
-                    <q-btn color="red" icon="search" />
+                    <q-btn color="red" icon-right="search" />
                   </q-input>
                 </div>
                 <div class="text-bold text-h4 q-pa-md">price</div>
                 <div class="q-pa-md">
-                  <q-separator style="width: 100px" color="red"></q-separator>
+                  <q-separator style="width: 70px" color="red"></q-separator>
                 </div>
                 <div>
+                  <q-list bordered>
+                    <q-item
+                      v-for="(item, index) in items"
+                      :key="index"
+                      clickable
+                      @click="toggleRadio(index)"
+                      v-ripple
+                    >
+                      <q-item-section>{{ item.label }}</q-item-section>
+                      <q-item-section avatar>
+                        <q-radio v-model="item.value" :val="true" color="red" />
+                      </q-item-section>
+                    </q-item>
+                  </q-list>
+                </div>
+                <div class="text-bold text-h4 q-pa-md">Size</div>
+                <div class="q-pa-md">
+                  <q-separator style="width: 70px" color="red"></q-separator>
+                </div>
+                 <div>
                   <q-list bordered>
                     <q-item
                       v-for="(item, index) in items"
@@ -53,6 +73,7 @@
           </div>
         </div>
       </div>
+      <div>size</div>
     </q-card>
   </div>
 </template>
@@ -63,10 +84,12 @@ import { reactive } from "vue";
 export default {
   setup() {
     const items = reactive([
-      { label: "Vuda", value: false },
-      { label: "Dhon", value: false },
-      { label: "Chudachudi", value: false },
-      { label: "Tor Nani", value: false },
+      { label: "All items", value: false },
+      { label: "$50-$100", value: false },
+      { label: "$100-$200", value: false },
+      { label: "$200-$300", value: false },
+      { label: "$300-$400", value: false },
+      { label: "$400-and more", value: false },
     ]);
 
     const toggleRadio = (index) => {
