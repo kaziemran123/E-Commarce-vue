@@ -31,9 +31,8 @@
               </q-list>
             </q-menu>
           </q-btn>
-          <q-btn flat no-focus label="SHOPE">
-            <q-menu transition-show="scale" transition-hide="scale"> </q-menu>
-          </q-btn>
+          <q-btn flat no-focus label="SHOP"/>
+          <q-menu transition-show="scale" transition-hide="scale"> </q-menu>
           <q-btn flat no-focus label="PAGES">
             <q-menu transition-show="scale" transition-hide="scale">
               <q-list style="min-width: 100px">
@@ -119,7 +118,7 @@
       <router-view />
     </q-page-container>
 
-    <q-footer reveal class="bg-grey">
+    <q-footer reveal class="bg-grey special_footer">
       <div class="q-py-xl">
         <div class="row">
           <div class="col q-px-xl">
@@ -294,9 +293,7 @@
             <div>
               subscribe to our newslatter abd get 10% off your first purchase
             </div>
-            <div class="q-pa-md">
-              
-            </div>
+            <div class="q-pa-md"></div>
             <div class="q-py-sm flex flex-center">
               <q-btn
                 color="red"
@@ -313,3 +310,17 @@
     </q-footer>
   </q-layout>
 </template>
+
+<script>
+import { createRouter, createWebHistory } from "vue-router";
+</script>
+
+<style lang="scss" scoped>
+.special_footer {
+  position: static;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+</style>
